@@ -1,6 +1,6 @@
 import React from "react"
 import { BsArrowRight } from "react-icons/bs"
-import logo from "../../static/images/logo.png"
+import logo from "../images/logo.png"
 
 const Header = () => {
   return (

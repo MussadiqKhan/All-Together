@@ -1,5 +1,5 @@
 import React from "react"
-import logo from "../../static/images/logo.png"
+import logo from "../images/logo.png"
 
 const Mission = () => {
   return (

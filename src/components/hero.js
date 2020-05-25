@@ -1,6 +1,6 @@
 import React from "react"
-import image1 from "../../static/images/image1.png"
-import eclipse from "../../static/images/eclipse.png"
+import image1 from "../images/image1.png"
+import eclipse from "../images/eclipse.png"
 
 const Hero = () => {
   return (
