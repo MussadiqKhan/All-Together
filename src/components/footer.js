@@ -1,0 +1,28 @@
+import React from "react"
+import facebook from "../../static/images/fb.png"
+import insta from "../../static/images/insta.png"
+import twitter from "../../static/images/twitter.png"
+
+const Footer = () => {
+  return (
+    <div>
+      <footer>
+        <div className="social-media">
+          <img src={facebook} alt="facebook icon" />
+          <img src={insta} alt="instagram icon" />
+          <img src={twitter} alt="twitter icon" />
+        </div>
+        <div className="footer-links">
+          <p>Resources</p>
+          <p>Volunteer</p>
+          <p>Donate</p>
+        </div>
+        <div className="copyright">
+          <p>2020 AllTogether LA</p>
+        </div>
+      </footer>
+    </div>
+  )
+}
+
+export default Footer
