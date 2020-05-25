@@ -279,7 +279,7 @@ export default function Home() {
               </p>
             </div>
             <div className="news-card">
-              <img src={ration} />
+              <img src={santamonica} />
               <h6>abc7</h6>
               <h3>
                 Santa Monica volunteers protect seniors with new grocery...{" "}
