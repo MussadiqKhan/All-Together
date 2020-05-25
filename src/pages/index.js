@@ -1,7 +1,6 @@
 import React from "react"
 import "../styles/style.css"
 import { BsArrowRight } from "react-icons/bs"
-
 import landing from "../../static/images/landing.png"
 import operation from "../../static/images/operation.png"
 import pay from "../../static/images/pay.png"
