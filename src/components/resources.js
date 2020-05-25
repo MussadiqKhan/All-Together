@@ -1,8 +1,8 @@
 import React from "react"
-import grocery from "../../static/images/grocery.png"
-import medicine from "../../static/images/medicine.png"
-import phone from "../../static/images/phone.png"
-import publics from "../../static/images/public.png"
+import grocery from "../images/grocery.png"
+import medicine from "../images/medicine.png"
+import phone from "../images/phone.png"
+import publics from "../images/public.png"
 
 const Resources = () => {
   return (
