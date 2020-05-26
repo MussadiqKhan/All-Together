@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,600&display=swap");
 @font-face {
   font-family: "Space Grotesk";
   src: url(../../static/SpaceGrotesk-Regular.ttf);
@@ -6,6 +5,7 @@
   src: url(../../static/SpaceGrotesk-Medium.ttf);
   src: url(../../static/SpaceGrotesk-Bold.ttf);
   src: url(../../static/SpaceGrotesk-SemiBold.ttf);
+  src: url(../../static/GT-Walsheim-Pro-Light.ttf);
 }
 * {
   margin: 0;
@@ -130,7 +130,7 @@ ul li {
   width: 593px;
   height: 124px;
   font-weight: normal;
-  font-family: Nunito;
+  font-family: "GT Walsheim Pro Light";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -145,7 +145,7 @@ ul li {
   background: #61be4e;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
   border-radius: 23px;
-  font-family: Nunito;
+  font-family: "GT Walsheim Pro Light";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -161,7 +161,7 @@ ul li {
   box-sizing: border-box;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
   border-radius: 23px;
-  font-family: Nunito;
+  font-family: "GT Walsheim Pro Light";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -203,7 +203,7 @@ ul li {
 .section_2 p {
   width: 963px;
   height: 83px;
-  font-family: Nunito;
+  font-family: "GT Walsheim Pro Light";
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
@@ -261,7 +261,7 @@ iframe {
   width: 90px;
 }
 .card-text p {
-  font-family: Nunito;
+  font-family: "GT Walsheim Pro Light";
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -311,7 +311,7 @@ iframe {
   color: #61be4e;
 }
 .section_4_text {
-  font-family: Nunito;
+  font-family: "GT Walsheim Pro Light";
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
@@ -334,7 +334,7 @@ iframe {
 .step {
   width: 157px;
   height: 42px;
-  font-family: Nunito;
+  font-family: "GT Walsheim Pro Light";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -394,7 +394,7 @@ iframe {
 
 .section_5 p {
   width: 330px;
-  font-family: Nunito;
+  font-family: "GT Walsheim Pro Light";
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
@@ -427,7 +427,7 @@ iframe {
   margin-top: 175px;
 }
 .section_6 p {
-  font-family: Nunito;
+  font-family: "GT Walsheim Pro Light";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -438,7 +438,7 @@ iframe {
   margin-top: 15px;
 }
 .section_6 div {
-  font-family: Nunito;
+  font-family: "GT Walsheim Pro Light";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -465,7 +465,7 @@ iframe {
   color: #363f41;
 }
 .section_7 p {
-  font-family: Nunito;
+  font-family: "GT Walsheim Pro Light";
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
@@ -553,7 +553,7 @@ iframe {
 .section_8 p {
   font-weight: 300;
   font-size: 18px;
-  font-family: Nunito;
+  font-family: "GT Walsheim Pro Light";
   line-height: 30px;
   text-align: center;
   letter-spacing: 0.03em;
@@ -561,7 +561,7 @@ iframe {
   color: #ffffff;
 }
 .reviews h3 {
-  font-family: Nunito;
+  font-family: "GT Walsheim Pro Light";
   font-weight: 900;
   font-size: 20px;
   line-height: 163.92%;
@@ -571,7 +571,7 @@ iframe {
 }
 .reviews h5 {
   font-weight: 500;
-  font-family: Nunito;
+  font-family: "GT Walsheim Pro Light";
   font-size: 16px;
   line-height: 163.92%;
   letter-spacing: 0.03em;
@@ -622,7 +622,7 @@ iframe {
   color: #363f41;
 }
 .headline {
-  font-family: Nunito;
+  font-family: "GT Walsheim Pro Light";
   width: 30%;
   text-align: center;
   margin: 0 auto;
@@ -651,7 +651,7 @@ iframe {
 .news-card h6 {
   font-size: 14px;
   line-height: 163.92%;
-  font-family: Nunito;
+  font-family: "GT Walsheim Pro Light";
   letter-spacing: 0.03em;
   padding: 1rem;
   color: #61be4e;
@@ -664,7 +664,7 @@ iframe {
   padding: 1rem;
   line-height: 20px;
   letter-spacing: 0.03em;
-  font-family: Nunito;
+  font-family: "GT Walsheim Pro Light";
   color: #9f9f9f;
 }
 
@@ -681,7 +681,7 @@ footer {
   padding: 1rem;
 }
 .footer-links {
-  font-family: Nunito;
+  font-family: "GT Walsheim Pro Light";
   font-style: normal;
   font-weight: 900;
   font-size: 14px;
@@ -693,7 +693,7 @@ footer {
 .copyright {
   padding: 1rem;
   color: white;
-  font-family: Nunito;
+  font-family: "GT Walsheim Pro Light";
   font-style: normal;
   font-weight: 300;
   font-size: 12px;
