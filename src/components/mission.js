@@ -5,7 +5,7 @@ const Mission = () => {
   return (
     <div>
       <div className="section_2">
-        <img src={logo} />
+        <img src={logo} width="179px" height="179px" />
         <h2>Our Mission</h2>
         <p>
           We aim to connect neighbors in need with neighbors who can help. Our

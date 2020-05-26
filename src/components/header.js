@@ -6,18 +6,14 @@ const Header = () => {
   return (
     <div>
       <nav className="top-bar">
-        <div className="top-bar-content">
-          <div>
-            <p>Join to help the community during COVID-19</p>
-          </div>
-          <div>
-            <button>
-              Volunteer <BsArrowRight className="arrow" />
-            </button>
-            <button>
-              Donate <BsArrowRight className="arrow" />
-            </button>
-          </div>
+        <p>Join to help the community during COVID-19</p>
+        <div>
+          <button>
+            Volunteer <BsArrowRight className="arrow" />
+          </button>
+          <button>
+            Donate <BsArrowRight className="arrow" />
+          </button>
         </div>
       </nav>
       <header>
