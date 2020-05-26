@@ -1,11 +1,15 @@
 @font-face {
-  font-family: "Space Grotesk";
   src: url(../../static/SpaceGrotesk-Regular.ttf);
   src: url(../../static/SpaceGrotesk-Light.ttf);
   src: url(../../static/SpaceGrotesk-Medium.ttf);
   src: url(../../static/SpaceGrotesk-Bold.ttf);
   src: url(../../static/SpaceGrotesk-SemiBold.ttf);
   src: url(../../static/GT-Walsheim-Pro-Light.ttf);
+  font-family: "Space Grotesk";
+}
+@font-face {
+  src: url(../../static/GT-Walsheim-Pro-Light.ttf);
+  font-family: "GT Walsheim Pro Light";
 }
 * {
   margin: 0;
@@ -22,7 +26,7 @@
   justify-content: center;
 }
 .top-bar p {
-  font-family: Space Grotesk;
+  font-family: "Space Grotesk";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -40,7 +44,7 @@
   color: white;
   height: 35px;
   font-size: 20px;
-  font-family: Space Grotesk;
+  font-family: "Space Grotesk";
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -60,7 +64,7 @@
 
 .logo-section span {
   margin-top: 28px;
-  font-family: Space Grotesk;
+  font-family: "Space Grotesk";
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -87,7 +91,7 @@ ul li {
   margin-top: 28px;
   padding: 0 2rem 2rem 2rem;
   height: 20px;
-  font-family: Space Grotesk;
+  font-family: "Space Grotesk";
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -116,7 +120,7 @@ ul li {
   width: 635px;
 }
 .hero-content h1 {
-  font-family: Space Grotesk;
+  font-family: "Space Grotesk";
   font-style: normal;
   height: 157px;
   font-weight: bold;
@@ -191,7 +195,7 @@ ul li {
   height: 21px;
   margin: 0 auto;
   margin-top: 11px;
-  font-family: Space Grotesk;
+  font-family: "Space Grotesk";
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -243,7 +247,7 @@ iframe {
   height: 49px;
   left: 483px;
   top: 2238px;
-  font-family: Space Grotesk;
+  font-family: "Space Grotesk";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -285,7 +289,7 @@ iframe {
 .section_3 h2 {
   width: 406px;
   height: 56px;
-  font-family: Space Grotesk;
+  font-family: "Space Grotesk";
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -323,7 +327,7 @@ iframe {
 }
 .section_4_card h2 {
   height: 56px;
-  font-family: Space Grotesk;
+  font-family: "Space Grotesk";
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -344,7 +348,7 @@ iframe {
 }
 .step_text {
   height: 53px;
-  font-family: Space Grotesk;
+  font-family: "Space Grotesk";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -375,7 +379,7 @@ iframe {
   padding-right: 5rem;
 }
 .section_5 h4 {
-  font-family: Space Grotesk;
+  font-family: "Space Grotesk";
   width: 340px;
   font-style: normal;
   font-weight: bold;
@@ -416,7 +420,7 @@ iframe {
   opacity: 0.7;
 }
 .section_6 h3 {
-  font-family: Space Grotesk;
+  font-family: "Space Grotesk";
   font-style: normal;
   font-weight: bold;
   font-size: 35px;
@@ -455,7 +459,7 @@ iframe {
   text-align: center;
 }
 .section_7 h2 {
-  font-family: Space Grotesk;
+  font-family: "Space Grotesk";
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -488,7 +492,7 @@ iframe {
 }
 .team_card h4 {
   font-weight: 600;
-  font-family: Space Grotesk;
+  font-family: "Space Grotesk";
   font-size: 16px;
   line-height: 163.92%;
   padding: 1rem;
@@ -541,7 +545,7 @@ iframe {
   margin-top: -50px;
 }
 .section_8 h1 {
-  font-family: Space Grotesk;
+  font-family: "Space Grotesk";
   font-style: normal;
   font-weight: 900;
   font-size: 36px;
@@ -612,7 +616,7 @@ iframe {
   margin-top: 50px;
 }
 .section_9 h1 {
-  font-family: Space Grotesk;
+  font-family: "Space Grotesk";
   font-weight: 600;
   font-size: 36px;
   line-height: 163.92%;
@@ -643,7 +647,7 @@ iframe {
 .news-card h3 {
   font-size: 16px;
   line-height: 130%;
-  font-family: Space Grotesk;
+  font-family: "Space Grotesk";
   padding: 1rem;
   letter-spacing: 0.03em;
   color: #363f41;
