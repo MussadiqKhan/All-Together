@@ -664,7 +664,7 @@ iframe {
   padding: 1rem;
   line-height: 20px;
   letter-spacing: 0.03em;
-  font-family: Nuito;
+  font-family: Nunito;
   color: #9f9f9f;
 }
 
@@ -688,6 +688,7 @@ footer {
   line-height: 23px;
   letter-spacing: 0.03em;
   color: #ffffff;
+  padding: 1rem;
 }
 .copyright {
   padding: 1rem;
