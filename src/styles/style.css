@@ -218,8 +218,22 @@ ul li {
   margin: 0 auto;
   margin-top: 72px;
 }
+.artwork {
+  font-family: "GT Walsheim Pro Light";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #515151;
+  margin: 0 auto;
+  margin-top: 49px;
+}
 iframe {
-  margin-top: 110px;
+  margin: 0 auto;
+
+  margin-top: 53px;
 }
 .section_3 {
   display: flex;
@@ -244,7 +258,7 @@ iframe {
 }
 .card-text h5 {
   width: 193px;
-  height: 49px;
+  height: 69px;
   left: 483px;
   top: 2238px;
   font-family: "Space Grotesk";
@@ -259,10 +273,11 @@ iframe {
 }
 .icon {
   margin: 0 auto;
-  padding-top: 1rem;
+  padding-top: 0.7rem;
 }
 .icon img {
-  width: 90px;
+  width: 70px;
+  height: 70px;
 }
 .card-text p {
   font-family: "GT Walsheim Pro Light";

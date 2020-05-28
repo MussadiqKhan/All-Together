@@ -14,8 +14,9 @@ const Mission = () => {
           COVID-19, we hope to facilitate long-lasting relationships and build a
           greater sense of community.
         </p>
+        <span className="artwork">ARTWORK CREATED BY JIM “TAZ” EVANS</span>
         <iframe
-          width="100%"
+          width="85%"
           height="480"
           title="corona"
           src="https://www.youtube.com/embed/EsqdBz-_noQ"
