@@ -13,9 +13,12 @@ class Contact extends Component {
             errands!
           </p>
           <p className="step">STEP 1</p>
-          <p className="step_text">
-            Call our number at{" "}
-            <span style={{ color: "#61BE4E" }}>(323) 310-0411</span>
+          <p className="step_text" style={{ marginBottom: "15px" }}>
+            Call our number at
+            <span style={{ color: "#61BE4E", padding: "0" }}>
+              {" "}
+              (323) 310-0411
+            </span>
           </p>
           <p className="step">STEP 2</p>
           <p className="step_text">

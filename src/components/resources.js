@@ -8,7 +8,7 @@ const Resources = () => {
   return (
     <div>
       <div className="section_3">
-        <p className="section_3_p">Our Resources</p>
+        <p className="section_3_p">OUR RESOURCES</p>
         <h2>How we can help</h2>
         <div className="card-parent">
           <div className="card">

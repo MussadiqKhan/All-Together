@@ -14,7 +14,7 @@ import Press from "../components/press"
 
 export default function Home() {
   return (
-    <div>
+    <div style={{ background: "red" }}>
       <Header />
       <Hero />
       <Mission />

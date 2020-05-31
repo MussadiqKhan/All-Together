@@ -8,6 +8,18 @@
   font-family: "Space Grotesk";
 }
 @font-face {
+  src: url(../../static/SpaceGrotesk-SemiBold.ttf);
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  src: url(../../static/SpaceGrotesk-Bold.ttf);
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
   src: url(../../static/GT-Walsheim-Pro-Light.ttf);
   font-family: "GT Walsheim Pro Light";
 }
@@ -19,7 +31,7 @@
 
 .top-bar {
   width: 100%;
-  height: 72px;
+  height: 55px;
   background: #61be4e;
   box-shadow: 0px 2px 5px #61be4e;
   display: flex;
@@ -67,10 +79,10 @@
   font-family: "Space Grotesk";
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 163.92%;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: white;
 }
 .logo {
   width: 24px;
@@ -97,21 +109,28 @@ ul li {
   font-size: 14px;
   line-height: 163.92%;
   letter-spacing: 0.03em;
-  color: #434343;
+  color: white;
 }
-
+.main-hero {
+  background: linear-gradient(
+    107.98deg,
+    #182015 48.19%,
+    rgba(29, 43, 23, 0.33) 88.09%
+  );
+}
 .hero {
   display: flex;
   justify-content: space-between;
+  background-color: #000000;
   background: linear-gradient(
-      70.72deg,
-      #ffffff 41.27%,
-      rgba(255, 255, 255, 0) 50.82%
+      107.98deg,
+      #182015 48.19%,
+      rgba(29, 43, 23, 0.33) 88.09%
     ),
-    url("../images/Rectangle30.png") !important;
+    url("../images/background-img.png") !important;
   margin-top: -57px;
   background-repeat: no-repeat !important;
-  background-size: 77% 100% !important;
+  background-size: 87% 100% !important;
   background-position: right !important;
 }
 .hero-content {
@@ -121,13 +140,12 @@ ul li {
 }
 .hero-content h1 {
   font-family: "Space Grotesk";
-  font-style: normal;
   height: 157px;
   font-weight: bold;
   font-size: 40px;
   line-height: 140%;
   letter-spacing: 0.03em;
-  color: #2e2e2e;
+  color: white;
 }
 .hero-content p {
   margin-top: 30px;
@@ -140,10 +158,10 @@ ul li {
   font-size: 20px;
   line-height: 180%;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: white;
 }
 .call {
-  width: 330px;
+  width: 310px;
   height: 46px;
   border: #61be4e;
   background: #61be4e;
@@ -160,6 +178,7 @@ ul li {
 }
 .volunteer-button {
   width: 215px;
+  background: transparent;
   height: 46px;
   border: 1px solid #a0a0a0;
   box-sizing: border-box;
@@ -171,7 +190,7 @@ ul li {
   font-size: 18px;
   line-height: 109.28%;
   letter-spacing: 0.03em;
-  color: rgba(0, 0, 0, 0.64);
+  color: white;
 }
 
 .old {
@@ -205,7 +224,7 @@ ul li {
   color: #252424;
 }
 .section_2 p {
-  width: 963px;
+  max-width: 60rem;
   height: 83px;
   font-family: "GT Walsheim Pro Light";
   font-style: normal;
@@ -240,10 +259,25 @@ iframe {
   flex-direction: column;
   margin-top: 149px;
   margin-left: 5rem;
-  margin-right: 5rem;
+  margin-right: 2rem;
+}
+#video {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+#video iframe {
+  left: 10%;
+  top: 0;
+  height: 80%;
+  width: 80%;
+  position: absolute;
 }
 .card-parent {
   display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
   margin-top: 44px;
 }
 .card {
@@ -302,7 +336,6 @@ iframe {
   color: #61be4e;
 }
 .section_3 h2 {
-  width: 406px;
   height: 56px;
   font-family: "Space Grotesk";
   font-style: normal;
@@ -314,8 +347,9 @@ iframe {
 }
 .section_4 {
   display: flex;
-  justify-content: space-between;
-  padding: 0rem 5rem 0rem 5rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0rem 2rem 0rem 5rem;
   margin-top: 110px;
 }
 .section_4_contact {
@@ -343,8 +377,8 @@ iframe {
 .section_4_card h2 {
   height: 56px;
   font-family: "Space Grotesk";
+  font-weight: normal;
   font-style: normal;
-  font-weight: 600;
   font-size: 36px;
   line-height: 163.92%;
   letter-spacing: 0.03em;
@@ -375,19 +409,24 @@ iframe {
 .section_4_card {
   background: rgba(255, 255, 255, 0.9);
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  padding: 5rem;
+  padding: 4rem;
+  width: 50%;
+
   border-top: 15px solid #61be4e;
+  position: relative;
 }
 .section_4_image {
   display: flex;
-  justify-self: flex-end;
+  position: absolute;
+  left: 45%;
 }
 .section_4_image img {
   width: 100% !important;
 }
 .section_5 {
   display: flex;
-  justify-content: space-evenly !important;
+  flex-wrap: wrap;
+  justify-content: space-between !important;
   margin: 0 auto;
   margin-top: 110px;
   padding-left: 5rem;
@@ -395,7 +434,7 @@ iframe {
 }
 .section_5 h4 {
   font-family: "Space Grotesk";
-  width: 340px;
+  width: 350px;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -404,15 +443,9 @@ iframe {
   color: #202222;
   margin-bottom: 4px;
 }
-.section_5 img {
-  width: 250px !important;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-}
 
 .section_5 p {
-  width: 330px;
+  width: 300px;
   font-family: "GT Walsheim Pro Light";
   font-style: normal;
   font-weight: 300;
@@ -421,6 +454,7 @@ iframe {
   letter-spacing: 0.03em;
   color: #202222;
 }
+
 .section_5 img {
   width: 250px;
 }
@@ -437,7 +471,7 @@ iframe {
 .section_6 h3 {
   font-family: "Space Grotesk";
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 35px;
   line-height: 163.92%;
   text-align: center;
@@ -447,6 +481,7 @@ iframe {
 }
 .section_6 p {
   font-family: "GT Walsheim Pro Light";
+  padding: 0rem 4rem 0rem 4rem;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -595,6 +630,18 @@ iframe {
   line-height: 163.92%;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.8);
+}
+.insta-post {
+  font-family: "GT Walsheim Pro Light";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  vertical-align: middle;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
 }
 .update {
   margin-bottom: 0 !important;
@@ -789,7 +836,7 @@ footer {
   }
   .hero-content {
     width: 100%;
-    margin-left: 10px;
+    margin-left: 0px;
   }
   .top-bar {
     width: 100%;
@@ -821,9 +868,13 @@ footer {
   .card {
     width: 100% !important;
   }
+  .section_6 div {
+    width: 100%;
+  }
   .section_2,
   .section_5,
-  .section_7 {
+  .section_7,
+  .section_6 {
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -845,6 +896,15 @@ footer {
   }
   .team_card img {
     width: 100%;
+  }
+  .section_4_card {
+    position: static;
+    width: 100%;
+    margin-bottom: 10%;
+  }
+  .section_4_image {
+    position: static;
+    left: 0;
   }
 }
 @media screen and (max-width: 1100px) {

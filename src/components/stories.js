@@ -48,36 +48,72 @@ class Stories extends Component {
           </div>
         </div>
         <div className="update">
-          <img src={instagram} width="20" />{" "}
-          <span
-            style={{
-              fontFamily: "Nunito",
-              fontWeight: "300",
-              fontSize: "18px",
-              lineHeight: "30px",
-              letterSpacing: "0.03em",
-              color: "#FFFFFF",
-            }}
-          >
-            Our Latest Updates on Instagram
-          </span>
+          <a href="https://www.instagram.com/alltogetherla/">
+            {" "}
+            <img
+              src={instagram}
+              width="30"
+              style={{ verticalAlign: "middle" }}
+            />
+          </a>
+          <span className="insta-post"> Our Latest Updates on Instagram</span>
           <div className="posts">
             <div className="post_image">
-              <img src={oldlady} />
+              <iframe
+                src="https://www.instagram.com/p/B_0X8JKg9Qp/embed"
+                frameborder="0"
+                allowfullscreen
+                scrolling="no"
+                allowtransparency
+                width="250"
+                height="320"
+              ></iframe>{" "}
             </div>
             <div className="post_image">
-              <img src={food} />
+              <iframe
+                src="https://www.instagram.com/p/B_0czeNgXqi/embed"
+                frameborder="0"
+                allowfullscreen
+                scrolling="no"
+                allowtransparency
+                width="250"
+                height="320"
+              ></iframe>{" "}
             </div>
             <div className="post_image">
-              <img src={family} />
+              <iframe
+                src="https://www.instagram.com/p/B_030wmAK3I/embed"
+                frameborder="0"
+                allowfullscreen
+                scrolling="no"
+                allowtransparency
+                width="250"
+                height="320"
+              ></iframe>{" "}
             </div>
             <div className="post_image">
               {" "}
-              <img src={letter} />
+              <iframe
+                src="https://www.instagram.com/p/B_0dZECAOXB/embed"
+                frameborder="0"
+                allowfullscreen
+                scrolling="no"
+                allowtransparency
+                width="250"
+                height="320"
+              ></iframe>{" "}
             </div>
             <div className="post_image">
               {" "}
-              <img src={team} />
+              <iframe
+                src="https://www.instagram.com/p/B_3ZlD9AHtz/embed"
+                frameborder="0"
+                allowfullscreen
+                scrolling="no"
+                allowtransparency
+                width="250"
+                height="320"
+              ></iframe>{" "}
             </div>
           </div>
         </div>
