@@ -129,6 +129,7 @@ ul li {
     ),
     url("../images/background-img.png") !important;
   margin-top: -57px;
+  height: 743px;
   background-repeat: no-repeat !important;
   background-size: 87% 100% !important;
   background-position: right !important;
@@ -670,6 +671,7 @@ iframe {
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+
 .news-card {
   border: 1px solid #e3e3e3;
   box-sizing: border-box;
@@ -677,6 +679,7 @@ iframe {
   width: 328px;
   margin-top: 50px;
 }
+
 .section_9 h1 {
   font-family: "Space Grotesk";
   font-weight: 600;
@@ -710,7 +713,7 @@ iframe {
   font-size: 16px;
   line-height: 130%;
   font-family: "Space Grotesk";
-  padding: 1rem;
+  padding: 0rem 1rem 0 1rem;
   letter-spacing: 0.03em;
   color: #363f41;
 }
@@ -877,6 +880,14 @@ footer {
   .section_6 {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+  .section_5 h4 {
+    text-align: center;
+    width: 100%;
+  }
+  .section_5 p {
+    text-align: center;
+    width: 100%;
   }
   .section_3 {
     margin-left: 1rem;
