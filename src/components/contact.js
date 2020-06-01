@@ -17,7 +17,7 @@ class Contact extends Component {
             Call our number at
             <span style={{ color: "#61BE4E", padding: "0" }}>
               {" "}
-              (323) 310-0411
+              <b> (323) 310-0411</b>
             </span>
           </p>
           <p className="step">STEP 2</p>

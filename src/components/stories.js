@@ -1,11 +1,6 @@
 import React, { Component } from "react"
 import Kayla from "../images/Kayla.png"
 import instagram from "../images/instagram.png"
-import oldlady from "../images/1.png"
-import food from "../images/2.png"
-import family from "../images/3.png"
-import letter from "../images/4.png"
-import team from "../images/5.png"
 
 class Stories extends Component {
   render() {
