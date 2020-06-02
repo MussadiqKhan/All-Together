@@ -13,8 +13,18 @@ const Footer = () => {
           <img src={twitter} alt="twitter icon" />
         </div>
         <div className="footer-links">
-          <p>Resources</p>
-          <p>Volunteer</p>
+          <a
+            style={{ color: "white" }}
+            href="https://www.notion.so/Resources-for-LA-Seniors-7b5d40bf627c42e1a9e7d17cdfa99f6f"
+          >
+            <p>Resources</p>
+          </a>
+          <a
+            style={{ color: "white" }}
+            href="https://alltogether.typeform.com/to/Fl5Aku"
+          >
+            <p>Volunteer</p>
+          </a>
           <p>Donate</p>
         </div>
         <div className="copyright">

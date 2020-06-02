@@ -18,11 +18,13 @@ const Mission = () => {
         <div id="video">
           <iframe
             title="corona"
-            src="https://www.youtube.com/embed/EsqdBz-_noQ"
-            frameBorder="0"
-            align="middle"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
+            src="https://abc7.com/video/embed/?pid=6200231"
+            marginwidth="0"
+            marginheight="0"
+            hspace="0"
+            vspace="0"
+            frameborder="0"
+            scrolling="no"
           ></iframe>
         </div>
       </div>

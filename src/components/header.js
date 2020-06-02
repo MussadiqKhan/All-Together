@@ -9,7 +9,7 @@ const Header = () => {
       <nav className="top-bar">
         <p>Join to help the community during COVID-19</p>
         <div>
-          <a hrf="https://alltogether.typeform.com/to/Fl5Aku" target="_blank">
+          <a href="https://alltogether.typeform.com/to/Fl5Aku">
             <button>
               Volunteer <BsArrowRight className="arrow" />
             </button>

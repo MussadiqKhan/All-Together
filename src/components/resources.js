@@ -3,6 +3,7 @@ import grocery from "../images/grocery.png"
 import medicine from "../images/medicine.png"
 import phone from "../images/phone.png"
 import publics from "../images/public.png"
+import { BsArrowRight } from "react-icons/bs"
 
 const Resources = () => {
   return (
@@ -54,8 +55,22 @@ const Resources = () => {
             <div className="card-text">
               <h5>Public Resources </h5>
               <p>
-                We can find support services you may be eligible for (eg. meal
-                delivery services) and help you sign up
+                We can find support services you may be eligible for and help
+                you sign up
+                <div
+                  style={{
+                    marginTop: "1.8rem",
+                    color: "#61BE4E",
+                  }}
+                  className="links"
+                >
+                  <b>
+                    <a href=" https://www.notion.so/Resources-for-LA-Seniors-7b5d40bf627c42e1a9e7d17cdfa99f6f">
+                      {" "}
+                      Resources Available <BsArrowRight className="arrow" />
+                    </a>
+                  </b>
+                </div>
               </p>
             </div>
           </div>
