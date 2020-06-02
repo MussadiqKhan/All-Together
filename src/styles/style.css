@@ -33,7 +33,6 @@
   width: 100%;
   height: 55px;
   background: #61be4e;
-  box-shadow: 0px 2px 5px #61be4e;
   display: flex;
   justify-content: center;
 }
@@ -41,7 +40,7 @@
   font-family: "Space Grotesk";
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 162%;
   letter-spacing: 0.03em;
   color: #ffffff;
@@ -53,17 +52,16 @@
   width: 155px;
   border: 1.5px solid rgba(255, 255, 255, 0.9);
   background: transparent;
-  color: white;
   height: 35px;
-  font-size: 20px;
   font-family: "Space Grotesk";
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 16px;
   line-height: 162%;
   letter-spacing: 0.03em;
   color: #ffffff;
   margin-left: 18px;
+  border-radius: 17.5px;
 }
 .arrow {
   vertical-align: middle;
@@ -85,9 +83,11 @@
   color: #393939;
 }
 .logo {
-  width: 24px;
-  height: 24px;
-  margin-top: 28px;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 20px;
   margin-left: 28px;
   margin-right: 8px;
 }
@@ -106,10 +106,11 @@ ul li {
   font-family: "Space Grotesk";
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 163.92%;
   letter-spacing: 0.03em;
   color: #393939;
+  cursor: pointer;
 }
 .main-hero {
 }
@@ -123,10 +124,10 @@ ul li {
       rgba(255, 255, 255, 0.33) 65.9%
     ),
     url("../images/background-img.png") !important;
-  margin-top: -57px;
+  margin-top: -60px;
   height: 743px;
   background-repeat: no-repeat !important;
-  background-size: 87% 100% !important;
+  background-size: 100% 100% !important;
   background-position: right !important;
 }
 .hero-content {
@@ -254,8 +255,8 @@ iframe {
   display: flex;
   flex-direction: column;
   margin-top: 149px;
-  margin-left: 5rem;
-  margin-right: 2rem;
+  margin-left: 8.2rem;
+  margin-right: 8.2rem;
 }
 #video {
   overflow: hidden;
@@ -272,7 +273,7 @@ iframe {
 }
 .card-parent {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 44px;
 }
@@ -427,7 +428,7 @@ iframe {
 .section_5 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center !important;
+  justify-content: space-between !important;
   margin: 0 auto;
   margin-top: 110px;
   padding-left: 5rem;
@@ -446,7 +447,7 @@ iframe {
 }
 
 .section_5 p {
-  width: 320px;
+  width: 300px;
   font-family: "GT Walsheim Pro Light";
   font-style: normal;
   font-weight: 300;
@@ -545,6 +546,7 @@ iframe {
   width: 172px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   margin: 0.2rem;
+  margin-bottom: 20px;
 }
 .team_card h4 {
   font-weight: 600;
@@ -588,7 +590,7 @@ iframe {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
   border-radius: 11px;
   width: 350px;
-  margin: 0px 10px 80px 10px;
+  margin: 5px 10px 80px 10px;
   margin-bottom: 80px;
   justify-content: center;
   text-align: center;
@@ -609,6 +611,7 @@ iframe {
   letter-spacing: 0.03em;
   color: #ffffff;
   margin-top: 90px;
+  margin-bottom: 5px;
 }
 .section_8 p {
   font-weight: 300;
@@ -692,6 +695,18 @@ iframe {
   box-shadow: 0 0 1px 3px #61be4e !important;
 }
 
+.dautGI:hover,
+.dautGI:focus {
+  outline: none !important;
+  background-color: transparent;
+  font-size: 1.3em;
+  content: "";
+  height: 10px;
+  width: 10px;
+  box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.5) !important;
+  border-radius: 50%;
+  outline: none;
+}
 .rec-slider div:focus {
   outline: none !important;
   border: none !important;
@@ -981,5 +996,14 @@ footer {
   .team {
     display: flex;
     flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1396px) {
+  .section_3 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  .card-parent {
+    justify-content: space-between;
   }
 }

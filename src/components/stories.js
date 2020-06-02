@@ -5,7 +5,7 @@ import instagram from "../images/instagram.png"
 class Stories extends Component {
   render() {
     return (
-      <div className="section_8">
+      <div className="section_8" id="stories">
         <h1>Stories</h1>
         <p>
           Hear directly from the community members we’ve been able to help!{" "}
@@ -14,7 +14,7 @@ class Stories extends Component {
           <div className="reviews_card">
             <img src={Kayla} />
             <h3>Kayla</h3>
-            <h5>Santa Monica</h5>
+            <h5 style={{ fontStyle: "italic" }}>Santa Monica</h5>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -24,7 +24,7 @@ class Stories extends Component {
           <div className="reviews_card">
             <img src={Kayla} />
             <h3>Kayla</h3>
-            <h5>Santa Monica</h5>
+            <h5 style={{ fontStyle: "italic" }}>Santa Monica</h5>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -34,7 +34,7 @@ class Stories extends Component {
           <div className="reviews_card">
             <img src={Kayla} />
             <h3>Kayla</h3>
-            <h5>Santa Monica</h5>
+            <h5 style={{ fontStyle: "italic" }}>Santa Monica</h5>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

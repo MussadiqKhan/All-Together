@@ -12,7 +12,7 @@ import Jayen from "../images/Jayen.png"
 class About extends Component {
   render() {
     return (
-      <div className="section_7">
+      <div className="section_7" id="about">
         <h2>About Us</h2>
         <p>
           We’re a group of professionals across the Entertainment, Health,{" "}

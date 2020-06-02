@@ -8,7 +8,7 @@ import covid from "../images/covid.png"
 class Press extends Component {
   render() {
     return (
-      <div className="section_9">
+      <div className="section_9" id="press">
         <div className="section_9_text">
           <h1>Press</h1>
           <p className="headline">

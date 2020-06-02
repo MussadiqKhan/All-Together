@@ -4,7 +4,7 @@ import logo from "../images/logo.png"
 const Mission = () => {
   return (
     <div>
-      <div className="section_2">
+      <div className="section_2" id="mission">
         <img src={logo} width="179px" height="179px" />
         <h2>Our Mission</h2>
         <p>

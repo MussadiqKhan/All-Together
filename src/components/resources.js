@@ -7,7 +7,7 @@ import publics from "../images/public.png"
 const Resources = () => {
   return (
     <div>
-      <div className="section_3">
+      <div className="section_3" id="help">
         <p className="section_3_p">OUR RESOURCES</p>
         <h2>How we can help</h2>
         <div className="card-parent">

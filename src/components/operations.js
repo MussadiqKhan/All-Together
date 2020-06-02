@@ -7,7 +7,7 @@ class Operations extends Component {
   render() {
     return (
       <div className="section_5">
-        <div className="section_5_box">
+        <div>
           <img src={operation} alt="operations" />
           <h4 style={{ marginTop: "30px" }}>Where do we operate?</h4>
           <p>

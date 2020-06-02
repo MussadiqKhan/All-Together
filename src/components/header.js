@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import { BsArrowRight } from "react-icons/bs"
 import logo from "../images/logo1.png"
 
@@ -23,11 +24,21 @@ const Header = () => {
         </div>
         <div className="menu">
           <ul>
-            <li>Our Mission</li>
-            <li>Get Help</li>
-            <li>About Us</li>
-            <li>Stories</li>
-            <li>Press</li>
+            <Link to="/#mission">
+              <li>Our Mission</li>
+            </Link>
+            <Link to="/#help">
+              <li>Get Help</li>
+            </Link>
+            <Link to="/#about">
+              <li>About Us</li>
+            </Link>
+            <Link to="/#stories">
+              <li>Stories</li>
+            </Link>
+            <Link to="/#press">
+              <li>Press</li>
+            </Link>
           </ul>
         </div>
       </header>
