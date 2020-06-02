@@ -16,10 +16,17 @@ const Hero = () => {
           </p>
           <div>
             <div className="hero-button">
-              <button className="call">
-                Call for help at <b>(323)310-0411</b>
-              </button>
-              <button className="volunteer-button">Volunteer with us</button>
+              <a href="tel:323-310-0411">
+                <button className="call">
+                  Call for help at <b>(323)310-0411</b>
+                </button>
+              </a>
+              <a
+                href="https://alltogether.typeform.com/to/Fl5Aku"
+                target="_blank"
+              >
+                <button className="volunteer-button">Volunteer with us</button>
+              </a>
             </div>
           </div>
         </div>

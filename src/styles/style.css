@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 @font-face {
   src: url(../../static/SpaceGrotesk-Regular.ttf);
   src: url(../../static/SpaceGrotesk-Light.ttf);
@@ -62,6 +65,9 @@
   color: #ffffff;
   margin-left: 18px;
   border-radius: 17.5px;
+}
+.top-bar button:focus {
+  outline: none;
 }
 .arrow {
   vertical-align: middle;
