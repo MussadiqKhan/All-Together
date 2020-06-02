@@ -19,7 +19,7 @@ class Operations extends Component {
           <h4>How can I pay for the deliveries?</h4>
           <p>
             Our volunteers will make purchases on your behalf. You can pay them
-            back with cash, check, or electronically via Paypal or Venmo.{" "}
+            back with cash, check, or electronically via Paypal or Venmo.
           </p>
         </div>
         <div>

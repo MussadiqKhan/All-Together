@@ -3,8 +3,8 @@ import Carousel from "react-elastic-carousel"
 
 import ration from "../images/ration.png"
 import santamonica from "../images/santamonica.png"
+import press from "../images/press.png"
 import covid from "../images/covid.png"
-import press from "../images/press1.png"
 
 class Press extends Component {
   render() {
@@ -20,7 +20,7 @@ class Press extends Component {
               breakPoints={[
                 { width: 1, itemsToShow: 1 },
                 { width: 699, itemsToShow: 2 },
-                { width: 700, itemsToShow: 3 },
+                { width: 1000, itemsToShow: 3 },
               ]}
               itemsToScroll={3}
               className="car"
@@ -29,7 +29,7 @@ class Press extends Component {
             >
               <div className="news-card">
                 <a href="https://abc7.com/non-profit-covid19-all-together-la-seniors/6199498/">
-                  <img src={press} />
+                  <img src={press} wdith="326" height="213" />
                   <h6>abc7</h6>
                   <h3>
                     Seniors get more help with grocery deliveries as non-profit
