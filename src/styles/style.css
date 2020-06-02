@@ -265,18 +265,11 @@ iframe {
   margin-right: 8.2rem;
 }
 #video {
-  padding-bottom: 043.9%;
-  background: transparent;
-  position: relative;
+  margin: 0 auto;
+  width: 70%;
   height: 100%;
 }
-#video iframe {
-  left: 10%;
-  top: 0;
-  height: 100%;
-  width: 75%;
-  position: absolute;
-}
+
 a {
   text-decoration: none;
   list-style: none;

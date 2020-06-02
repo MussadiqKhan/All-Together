@@ -28,7 +28,10 @@ class Press extends Component {
               itemPadding={[0, 10, 0, 10]}
             >
               <div className="news-card">
-                <a href="https://abc7.com/non-profit-covid19-all-together-la-seniors/6199498/">
+                <a
+                  href="https://abc7.com/non-profit-covid19-all-together-la-seniors/6199498/"
+                  target="_blank"
+                >
                   <img src={press} wdith="326" height="213" />
                   <h6>abc7</h6>
                   <h3>
@@ -42,7 +45,10 @@ class Press extends Component {
                 </a>
               </div>
               <div className="news-card">
-                <a href="https://www.insideedition.com/en-route-with-volunteers-who-are-helping-the-elderly-get-groceries-during-the-coronavirus">
+                <a
+                  href="https://www.insideedition.com/en-route-with-volunteers-who-are-helping-the-elderly-get-groceries-during-the-coronavirus"
+                  target="_blank"
+                >
                   <img src={ration} />
                   <h6>Inside Edition</h6>
                   <h3>
@@ -55,7 +61,10 @@ class Press extends Component {
                 </a>
               </div>
               <div className="news-card">
-                <a href="https://abc7.com/coronavirus-seniors-covid-19-groceries/6045815/">
+                <a
+                  href="https://abc7.com/coronavirus-seniors-covid-19-groceries/6045815/"
+                  target="_blank"
+                >
                   <img src={santamonica} />
                   <h6>abc7</h6>
                   <h3>
@@ -68,7 +77,10 @@ class Press extends Component {
                 </a>
               </div>
               <div className="news-card">
-                <a href="https://www.smdp.com/community-comes-together-to-help-seniors-combat-covid-19/188132">
+                <a
+                  href="https://www.smdp.com/community-comes-together-to-help-seniors-combat-covid-19/188132"
+                  target="_blank"
+                >
                   <img src={covid} />
                   <h6>Santa Monica Daily Press</h6>
                   <h3>

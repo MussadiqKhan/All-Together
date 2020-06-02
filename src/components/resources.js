@@ -65,7 +65,10 @@ const Resources = () => {
                   className="links"
                 >
                   <b>
-                    <a href=" https://www.notion.so/Resources-for-LA-Seniors-7b5d40bf627c42e1a9e7d17cdfa99f6f">
+                    <a
+                      href=" https://www.notion.so/Resources-for-LA-Seniors-7b5d40bf627c42e1a9e7d17cdfa99f6f"
+                      target="_blank"
+                    >
                       {" "}
                       Resources Available <BsArrowRight className="arrow" />
                     </a>

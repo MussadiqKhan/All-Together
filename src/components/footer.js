@@ -16,12 +16,14 @@ const Footer = () => {
           <a
             style={{ color: "white" }}
             href="https://www.notion.so/Resources-for-LA-Seniors-7b5d40bf627c42e1a9e7d17cdfa99f6f"
+            target="_blank"
           >
             <p>Resources</p>
           </a>
           <a
             style={{ color: "white" }}
             href="https://alltogether.typeform.com/to/Fl5Aku"
+            target="_blank"
           >
             <p>Volunteer</p>
           </a>

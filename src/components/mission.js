@@ -15,18 +15,14 @@ const Mission = () => {
           greater sense of community.
         </p>
         <span className="artwork">ARTWORK CREATED BY JIM “TAZ” EVANS</span>
-        <div id="video">
-          <iframe
-            title="corona"
-            src="https://abc7.com/video/embed/?pid=6200231"
-            marginwidth="0"
-            marginheight="0"
-            hspace="0"
-            vspace="0"
-            frameborder="0"
-            scrolling="no"
-          ></iframe>
-        </div>
+        <iframe
+          width="676"
+          height="397"
+          src="https://abc7.com/video/embed/?pid=6200231"
+          frameborder="0"
+          scrolling="0"
+          allowfullscreen
+        ></iframe>
       </div>
     </div>
   )
