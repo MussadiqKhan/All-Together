@@ -4,6 +4,7 @@ import Carousel from "react-elastic-carousel"
 import ration from "../images/ration.png"
 import santamonica from "../images/santamonica.png"
 import covid from "../images/covid.png"
+import press from "../images/press1.png"
 
 class Press extends Component {
   render() {
@@ -28,7 +29,7 @@ class Press extends Component {
             >
               <div className="news-card">
                 <a href="https://abc7.com/non-profit-covid19-all-together-la-seniors/6199498/">
-                  <img src={ration} />
+                  <img src={press} />
                   <h6>abc7</h6>
                   <h3>
                     Seniors get more help with grocery deliveries as non-profit
