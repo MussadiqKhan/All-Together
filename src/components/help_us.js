@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import { BsArrowRight } from "react-icons/bs"
+import man from "../images/man.png"
 
 class HelpUs extends Component {
   render() {
@@ -7,7 +8,7 @@ class HelpUs extends Component {
       <div className="section_6">
         <div
           style={{
-            background: `url(../images/man.png)`,
+            background: `url({man})`,
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
           }}
