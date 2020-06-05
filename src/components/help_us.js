@@ -8,7 +8,7 @@ class HelpUs extends Component {
       <div className="section_6">
         <div
           style={{
-            background: `url({man})`,
+            background: `url(${man})`,
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
           }}
