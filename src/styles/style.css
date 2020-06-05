@@ -894,6 +894,18 @@ footer {
   }
 }
 @media screen and (max-width: 1000px) {
+  .section_6 div {
+    width: 100% !important;
+    text-align: center;
+    margin-bottom: 0 !important;
+    padding-bottom: 30px !important;
+  }
+  .section_6 h3 {
+    margin-top: 50px !important;
+  }
+  .section_6 {
+    flex-direction: column !important;
+  }
   ul li {
     padding: 0 1rem 2rem 1rem;
   }

@@ -1,6 +1,8 @@
 import React, { Component } from "react"
 import { BsArrowRight } from "react-icons/bs"
 import man from "../images/man.png"
+import hand from "../images/hand.png"
+import heart from "../images/heart.png"
 
 class HelpUs extends Component {
   render() {
@@ -9,7 +11,7 @@ class HelpUs extends Component {
         <div
           style={{
             background: `url(${man})`,
-            backgroundRepeat: "no-repeat",
+            backgroundRepeat: "no-repeat !important",
             backgroundSize: "cover",
           }}
         >
@@ -38,7 +40,7 @@ class HelpUs extends Component {
         </div>
         <div
           style={{
-            background: `url(../images/hand.png)`,
+            background: `url(${hand})`,
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
           }}
@@ -60,7 +62,7 @@ class HelpUs extends Component {
         </div>
         <div
           style={{
-            background: `url(../images/heart.png)`,
+            background: `url(${heart})`,
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
           }}
