@@ -823,9 +823,132 @@ footer {
   color: #ffffff;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1512px) {
+  .section_4_image {
+    margin-top: -100px !important;
+    left: 60%;
+  }
+}
+@media screen and (min-width: 1830px) {
+  .section_4_image {
+    margin-top: -100px !important;
+    left: 65%;
+  }
+}
+@media screen and (min-width: 2100px) {
+  .section_4_image {
+    margin-top: -100px !important;
+    left: 70%;
+  }
+}
+@media screen and (max-width: 1245px) {
   .team {
-    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1396px) {
+  .section_3 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  .card-parent {
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 1385px) {
+  .section_5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between !important;
+    margin: 0 auto;
+    margin-top: 110px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .section_9 {
+    padding: 5rem;
+  }
+}
+@media screen and (max-width: 1222px) {
+  .section_5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between !important;
+    margin: 0 auto;
+    margin-top: 110px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .section_5 p {
+    width: 300px;
+    font-family: "GT Walsheim Pro Light";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 163.92%;
+    letter-spacing: 0.03em;
+    color: #202222;
+  }
+  .section_5 h4 {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .section_5 {
+    flex-wrap: wrap;
+  }
+  .section_5 div {
+    width: 100%;
+    text-align: center;
+  }
+  .section_5 h4 {
+    width: 100%;
+  }
+  .section_5 p {
+    width: 100%;
+  }
+  .section_3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 149px;
+    margin-left: 2.2rem;
+    margin-right: 2.2rem;
+  }
+  .card-parent {
+    justify-content: center;
+  }
+  .card {
+    width: 210px;
+    height: 327px;
+  }
+  .team {
+    justify-content: center;
+    margin: 0rem 5rem 0rem 5rem;
+  }
+  .team_card {
+    justify-self: flex-start;
+  }
+}
+@media only screen and (max-width: 768px) and (min-width: 412px) {
+  .team_card {
+    width: 26% !important;
+  }
+  .card {
+    width: 220px !important;
+    height: 357px !important;
+  }
+  .card-parent {
+    flex-direction: row !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section_3 h2 {
+    height: 100px;
+  }
+  .team {
+    margin: 0 auto;
   }
   .logo {
     margin-left: 0;
@@ -923,7 +1046,7 @@ footer {
     margin: 0 auto !important;
   }
   .card {
-    width: 100% !important;
+    width: 100%;
   }
   .section_6 div {
     width: 100%;
@@ -958,7 +1081,13 @@ footer {
     margin: 0 auto;
   }
   .team_card {
-    width: 100%;
+    width: 70%;
+    height: 40%;
+    margin: 0 auto;
+    margin-bottom: 0;
+    margin-bottom: 10px;
+    justify-self: center;
+    justify-content: center;
   }
   .team_card img {
     width: 100%;
@@ -975,7 +1104,7 @@ footer {
 
   .rec-slider-container,
   .car {
-    width: 100% !important;
+    width: 110% !important;
     padding: 0 !important;
     margin: 0 !important;
   }
@@ -987,91 +1116,5 @@ footer {
   }
   .section_4_image {
     justify-content: center;
-  }
-}
-@media screen and (min-width: 1512px) {
-  .section_4_image {
-    margin-top: -100px !important;
-    left: 60%;
-  }
-}
-@media screen and (min-width: 1830px) {
-  .section_4_image {
-    margin-top: -100px !important;
-    left: 65%;
-  }
-}
-@media screen and (min-width: 2100px) {
-  .section_4_image {
-    margin-top: -100px !important;
-    left: 70%;
-  }
-}
-@media screen and (max-width: 1245px) {
-  .team {
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
-@media screen and (max-width: 1396px) {
-  .section_3 {
-    margin-left: 4rem;
-    margin-right: 4rem;
-  }
-  .card-parent {
-    justify-content: space-between;
-  }
-}
-@media screen and (max-width: 1385px) {
-  .section_5 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between !important;
-    margin: 0 auto;
-    margin-top: 110px;
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
-  .section_9 {
-    padding: 5rem;
-  }
-}
-@media screen and (max-width: 1222px) {
-  .section_5 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between !important;
-    margin: 0 auto;
-    margin-top: 110px;
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-  .section_5 p {
-    width: 300px;
-    font-family: "GT Walsheim Pro Light";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 163.92%;
-    letter-spacing: 0.03em;
-    color: #202222;
-  }
-  .section_5 h4 {
-    width: 300px;
-  }
-}
-@media screen and (max-width: 1000px) {
-  .section_5 {
-    flex-wrap: wrap;
-  }
-  .section_5 div {
-    width: 100%;
-    text-align: center;
-  }
-  .section_5 h4 {
-    width: 100%;
-  }
-  .section_5 p {
-    width: 100%;
   }
 }
