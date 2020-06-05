@@ -41,7 +41,7 @@ class HelpUs extends Component {
         <div
           style={{
             background: `url(${hand})`,
-            backgroundRepeat: "no-repeat",
+            backgroundRepeat: "no-repeat !important",
             backgroundSize: "cover",
           }}
         >
@@ -63,7 +63,7 @@ class HelpUs extends Component {
         <div
           style={{
             background: `url(${heart})`,
-            backgroundRepeat: "no-repeat",
+            backgroundRepeat: "no-repeat !important",
             backgroundSize: "cover",
           }}
         >
