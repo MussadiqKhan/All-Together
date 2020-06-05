@@ -134,7 +134,7 @@ ul li {
   height: 743px;
   background-repeat: no-repeat !important;
   background-size: 100% 100% !important;
-  background-position: right !important;
+  background-position: center !important;
 }
 .hero-content {
   margin-top: 185px;
@@ -479,8 +479,6 @@ a {
 .section_6 div {
   width: 100%;
   text-align: center;
-
-  opacity: 0.7;
 }
 .section_6 h3 {
   font-family: "Space Grotesk";
@@ -896,6 +894,9 @@ footer {
   }
 }
 @media screen and (max-width: 1000px) {
+  ul li {
+    padding: 0 1rem 2rem 1rem;
+  }
   .section_5 {
     flex-wrap: wrap;
   }
@@ -945,6 +946,12 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  .hero {
+    background-image: url("../images/background-img.png") !important;
+    background-position: center !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+  }
   .section_3 h2 {
     height: 100px;
   }
@@ -977,7 +984,8 @@ footer {
   }
   ul li {
     display: flex;
-    padding: 10px 5px 15px 5px;
+    padding: 10px 3px 15px 3px;
+    font-size: 14px;
   }
 
   .section_4_card {
