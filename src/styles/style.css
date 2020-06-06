@@ -489,7 +489,7 @@ a {
   line-height: 163.92%;
   text-align: center;
   letter-spacing: 0.03em;
-  color: black;
+  color: white;
   margin-top: 100px;
 }
 .section_6 p {
@@ -501,7 +501,7 @@ a {
   line-height: 163.92%;
   text-align: center;
   letter-spacing: 0.03em;
-  color: black;
+  color: white;
   margin-top: 15px;
 }
 .section_6 div {
@@ -803,7 +803,7 @@ footer {
   display: flex;
 }
 .social-media img {
-  padding: 1rem;
+  padding: 1.2rem;
 }
 .footer-links {
   font-family: "GT Walsheim Pro Light";
@@ -975,6 +975,14 @@ footer {
     background-position: center !important;
     background-repeat: no-repeat;
     background-size: cover !important;
+  }
+  .social-media {
+    display: flex;
+  }
+  .social-media img {
+    width: 40px;
+    height: 40px;
+    padding: 0.2rem !important;
   }
   .section_3 h2 {
     height: 100px;
