@@ -55,7 +55,7 @@ class HelpUs extends Component {
             href="https://alltogether.typeform.com/to/Fl5Aku"
             target="_blank"
           >
-            <div style={{ marginTop: "1.8rem" }}>
+            <div style={{ marginTop: "2rem" }}>
               Sign up now <BsArrowRight className="arrow" />
             </div>
           </a>
@@ -69,7 +69,7 @@ class HelpUs extends Component {
         >
           <h3>Donate</h3>
           <p>Support our cause and make a difference!</p>
-          <div style={{ marginTop: "3.6rem" }}>
+          <div style={{ marginTop: "3.8rem" }}>
             Donate here <BsArrowRight className="arrow" />
           </div>
         </div>
