@@ -21,19 +21,24 @@ class HelpUs extends Component {
             background-checked neighbor within 24 hours.
           </p>
           <div>
-            <a style={{ color: "green" }} href="tel:323-310-0411">
+            <a style={{ color: "#61be4e" }} href="tel:323-310-0411">
               <span>
-                Call us now <BsArrowRight className="arrow" />
+                <b>
+                  {" "}
+                  Call us now <BsArrowRight className="arrow" />
+                </b>
               </span>
             </a>
             <br />
             <a
-              style={{ color: "green" }}
+              style={{ color: "#61be4e" }}
               href=" https://www.notion.so/Resources-for-LA-Seniors-7b5d40bf627c42e1a9e7d17cdfa99f6f"
               target="_blank"
             >
               <span>
-                Find Resources <BsArrowRight className="arrow" />
+                <b>
+                  Find Resources <BsArrowRight className="arrow" />
+                </b>
               </span>
             </a>
           </div>
@@ -51,12 +56,15 @@ class HelpUs extends Component {
             would love your help!
           </p>
           <a
-            style={{ color: "green" }}
+            style={{ color: "#61be4e" }}
             href="https://alltogether.typeform.com/to/Fl5Aku"
             target="_blank"
           >
-            <div style={{ marginTop: "2rem" }}>
-              Sign up now <BsArrowRight className="arrow" />
+            <div style={{ marginTop: "2rem", color: "#61be4e" }}>
+              <b>
+                {" "}
+                Sign up now <BsArrowRight className="arrow" />
+              </b>
             </div>
           </a>
         </div>
@@ -69,8 +77,11 @@ class HelpUs extends Component {
         >
           <h3>Donate</h3>
           <p>Support our cause and make a difference!</p>
-          <div style={{ marginTop: "3.8rem" }}>
-            Donate here <BsArrowRight className="arrow" />
+          <div style={{ marginTop: "3.8rem", color: "#61be4e" }}>
+            <b>
+              {" "}
+              Donate here <BsArrowRight className="arrow" />
+            </b>
           </div>
         </div>
       </div>

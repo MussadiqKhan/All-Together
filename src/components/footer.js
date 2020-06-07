@@ -8,9 +8,9 @@ const Footer = () => {
     <div>
       <footer>
         <div className="social-media">
-          <img src={facebook} alt="facebook icon" />
+          <img src={facebook} alt="facebook icon" width="70" />
           <img src={insta} alt="instagram icon" width="70" />
-          <img src={twitter} alt="twitter icon" />
+          <img src={twitter} alt="twitter icon" width="70" />
         </div>
         <div className="footer-links">
           <a
