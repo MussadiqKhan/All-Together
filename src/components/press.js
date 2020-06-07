@@ -33,7 +33,9 @@ class Press extends Component {
                   target="_blank"
                 >
                   <img src={press} wdith="326" height="213" />
-                  <h6>abc7</h6>
+                  <h6>
+                    <b>abc7</b>
+                  </h6>
                   <h3>
                     Seniors get more help with grocery deliveries as non-profit
                     grows...{" "}
@@ -50,7 +52,9 @@ class Press extends Component {
                   target="_blank"
                 >
                   <img src={ration} />
-                  <h6>Inside Edition</h6>
+                  <h6>
+                    <b>Inside Edition</b>
+                  </h6>
                   <h3>
                     En Route with Volunteers Who Are Helping the Elderly Get...
                   </h3>
@@ -66,7 +70,9 @@ class Press extends Component {
                   target="_blank"
                 >
                   <img src={santamonica} />
-                  <h6>abc7</h6>
+                  <h6>
+                    <b>abc7</b>
+                  </h6>
                   <h3>
                     Santa Monica volunteers protect seniors with new grocery...{" "}
                   </h3>
@@ -82,7 +88,9 @@ class Press extends Component {
                   target="_blank"
                 >
                   <img src={covid} />
-                  <h6>Santa Monica Daily Press</h6>
+                  <h6>
+                    <b>Santa Monica Daily Press</b>
+                  </h6>
                   <h3>
                     Community comes together to help seniors combat COVID-19
                   </h3>
