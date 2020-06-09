@@ -133,12 +133,7 @@ ul li {
   display: flex;
   justify-content: space-between;
   background-color: #000000;
-  background: linear-gradient(
-      107.98deg,
-      #fbfbfb 48.19%,
-      rgba(255, 255, 255, 0.33) 65.9%
-    ),
-    url("../images/background-img.png") !important;
+  background: url("../images/background-img.png") !important;
   margin-top: -60px;
   height: 743px;
   background-repeat: no-repeat !important;
@@ -979,7 +974,7 @@ footer {
 
 @media screen and (max-width: 768px) {
   .hero {
-    background-image: url("../images/background-img.png") !important;
+    background-image: url("../images/background-img-mobile.png") !important;
     background-position: center !important;
     background-repeat: no-repeat;
     background-size: cover !important;
@@ -1077,6 +1072,7 @@ footer {
   }
   .hero-content p {
     width: 100%;
+    font-weight: bold;
   }
   .hero-button {
     display: flex;
@@ -1093,6 +1089,7 @@ footer {
   }
   .volunteer-button {
     margin: 0 auto !important;
+    background-color: white;
   }
   .card {
     width: 100%;
