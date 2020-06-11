@@ -33,6 +33,18 @@ const Footer = () => {
           <p>2020 AllTogether LA</p>
         </div>
       </footer>
+      <style jsx>{`
+        @media screen and (max-width: 768px) {
+          .social-media {
+            display: flex;
+          }
+          .social-media img {
+            width: 40px;
+            height: 40px;
+            padding: 0.2rem !important;
+          }
+        }
+      `}</style>
     </div>
   )
 }
