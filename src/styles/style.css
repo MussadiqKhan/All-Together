@@ -87,6 +87,11 @@ footer {
 .abcotv body {
   background: transparent !important;
 }
+.QmVdP,
+.kbDIuN {
+  background-color: #61be4e !important;
+  box-shadow: 0 0 1px 3px #61be4e !important;
+}
 
 @media screen and (max-width: 1000px) {
   ul li {
