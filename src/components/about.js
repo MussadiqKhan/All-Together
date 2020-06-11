@@ -66,6 +66,115 @@ class About extends Component {
             <p>Manhattan Beach</p>
           </div>
         </div>
+        <style jsx>
+          {`
+            .section_7 {
+              display: flex;
+              flex-direction: column;
+              margin-top: 100px;
+              text-align: center;
+            }
+            .section_7 h2 {
+              font-family: "Space Grotesk";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 36px;
+              line-height: 163.92%;
+              margin-bottom: 37px;
+              letter-spacing: 0.05em;
+              color: #363f41;
+            }
+            .section_7 p {
+              font-family: "GT Walsheim Pro Light";
+              font-style: normal;
+              font-weight: 300;
+              font-size: 18px;
+              line-height: 30px;
+              text-align: center;
+              letter-spacing: 0.03em;
+              color: #515151;
+              margin-bottom: 37px;
+            }
+            .team {
+              display: flex;
+              flex-wrap: wrap;
+              -webkit-flex-wrap: wrap;
+              margin: 0rem 10rem 0rem 18rem;
+              flex-direction: row;
+              justify-content: flex-start;
+            }
+            .team_card {
+              display: flex;
+              flex-direction: column;
+              width: 172px;
+              box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+              margin: 0.2rem;
+              margin-bottom: 20px;
+            }
+            .team_card h4 {
+              font-weight: 600;
+              font-family: "Space Grotesk";
+              font-size: 16px;
+              line-height: 163.92%;
+              padding: 0.5rem;
+              text-align: center;
+              letter-spacing: 0.03em;
+              color: #434343;
+            }
+            .team_card p {
+              font-weight: normal;
+              font-size: 14px;
+              line-height: 3.92%;
+              text-align: center;
+              letter-spacing: 0.03em;
+              padding-bottom: 0.5rem 0.5rem 0rem 0.5rem;
+              color: #434343;
+            }
+            @media screen and (max-width: 1245px) {
+              .team {
+                display: flex;
+                flex-wrap: wrap;
+              }
+            }
+            @media screen and (max-width: 1385px) {
+              .team {
+                justify-content: center;
+                margin: 0rem 5rem 0rem 5rem;
+              }
+              .team_card {
+                justify-self: flex-start;
+              }
+            }
+
+            @media only screen and (max-width: 768px) and (min-width: 412px) {
+              .team_card {
+                width: 26% !important;
+              }
+            }
+            @media screen and (max-width: 768px) {
+              .team {
+                margin: 0 auto;
+              }
+              .section_7 {
+                padding-left: 1rem;
+                padding-right: 1rem;
+              }
+
+              .team_card {
+                width: 70%;
+                height: 40%;
+                margin: 0 auto;
+                margin-bottom: 0;
+                margin-bottom: 10px;
+                justify-self: center;
+                justify-content: center;
+              }
+              .team_card img {
+                width: 100%;
+              }
+            }
+          `}
+        </style>
       </div>
     )
   }

@@ -11,11 +11,19 @@ const Header = () => {
         <div>
           <a href="https://alltogether.typeform.com/to/Fl5Aku" target="_blank">
             <button>
-              Volunteer <BsArrowRight className="arrow" />
+              Volunteer{" "}
+              <BsArrowRight
+                className="arrow"
+                style={{ verticalAlign: "middle" }}
+              />
             </button>
           </a>
           <button>
-            Donate <BsArrowRight className="arrow" />
+            Donate{" "}
+            <BsArrowRight
+              className="arrow"
+              style={{ verticalAlign: "middle" }}
+            />
           </button>
         </div>
       </nav>
@@ -44,6 +52,136 @@ const Header = () => {
           </ul>
         </div>
       </header>
+
+      <style jsx>
+        {`
+          .top-bar {
+            width: 100%;
+            height: 55px;
+            background: #61be4e;
+            display: flex;
+            justify-content: center;
+            padding-bottom: 2px;
+          }
+          .top-bar p {
+            font-family: "Space Grotesk";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 162%;
+            letter-spacing: 0.03em;
+            color: #ffffff;
+            height: 46px !important;
+            margin-top: 16px !important;
+          }
+          .top-bar button {
+            margin-top: 10px;
+            width: 155px;
+            border: 1.5px solid rgba(255, 255, 255, 0.9);
+            background: transparent;
+            height: 35px;
+            font-family: "Space Grotesk";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 162%;
+            letter-spacing: 0.03em;
+            color: #ffffff;
+            margin-left: 18px;
+            border-radius: 17.5px;
+          }
+          .top-bar button:focus {
+            outline: none;
+          }
+          .arrow {
+            vertical-align: middle !important;
+          }
+          .logo-section {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+          }
+
+          .logo-section span {
+            margin-top: 28px;
+            font-family: "Space Grotesk";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 163.92%;
+            letter-spacing: 0.03em;
+            color: #393939;
+          }
+          .logo {
+            width: 35px;
+            height: 35px;
+            text-align: center;
+            vertical-align: middle;
+            margin-top: 20px;
+            margin-left: 28px;
+            margin-right: 8px;
+          }
+          header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            z-index: 1;
+            position: relative;
+          }
+          ul li {
+            display: inline-block !important;
+            margin-top: 28px;
+            padding: 0 2rem 2rem 2rem;
+            height: 20px;
+            font-family: "Space Grotesk";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 163.92%;
+            letter-spacing: 0.03em;
+            color: #393939;
+            cursor: pointer;
+          }
+          @media screen and (max-width: 1000px) {
+            ul li {
+              padding: 0 1rem 2rem 1rem;
+            }
+          }
+          @media screen and (max-width: 768px) {
+            .logo {
+              margin-left: 0;
+            }
+
+            .menu {
+              display: flex;
+              justify-content: center;
+            }
+            header {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+            }
+            .logo-section {
+              justify-content: center;
+              padding-right: 2rem;
+            }
+            .top-bar {
+              height: auto;
+              padding: 0rem 1rem 1rem 1rem;
+            }
+            ul li {
+              display: flex;
+              padding: 10px 3px 15px 3px;
+              font-size: 14px;
+            }
+
+            .top-bar {
+              width: 100%;
+              justify-content: space-evenly;
+            }
+          }
+        `}
+      </style>
     </div>
   )
 }

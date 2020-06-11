@@ -38,6 +38,124 @@ class Contact extends Component {
             alt="corona cartoon old lady"
           />
         </div>
+        <style jsx>
+          {`
+            .section_4 {
+              display: flex;
+              flex-direction: column;
+              justify-content: flex-start;
+              padding: 0rem 0rem 0rem 5rem;
+              margin-top: 110px;
+            }
+            .section_4_contact {
+              width: 115px;
+              height: 28px;
+              font-family: Helvetica;
+              font-style: normal;
+              font-weight: bold;
+              font-size: 12px;
+              line-height: 17px;
+              letter-spacing: 0.03em;
+              color: #61be4e;
+            }
+            .section_4_text {
+              font-family: "GT Walsheim Pro Light";
+              font-style: normal;
+              font-weight: 300;
+              font-size: 18px;
+              line-height: 30px;
+              letter-spacing: 0.03em;
+              color: #363f41;
+              margin-top: 24px;
+              margin-bottom: 24px;
+            }
+            .section_4_card h2 {
+              font-family: "Space Grotesk";
+              font-weight: 600;
+              font-style: normal;
+              font-size: 36px;
+              line-height: 163.92%;
+              letter-spacing: 0.03em;
+              color: #363f41;
+            }
+            .step {
+              width: 157px;
+              font-family: "GT Walsheim Pro Light";
+              font-style: normal;
+              font-weight: normal;
+              font-size: 16px;
+              line-height: 163.92%;
+              letter-spacing: 0.05em;
+              color: #6b6b6b;
+            }
+            .step_text {
+              font-family: "Space Grotesk";
+              font-style: normal;
+              font-weight: normal;
+              font-size: 20px;
+              line-height: 163.92%;
+              letter-spacing: 0.03em;
+              color: #363f41;
+              margin-bottom: 27px;
+            }
+            .section_4_card {
+              background: rgba(255, 255, 255, 0.9);
+              box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+              padding: 4rem;
+              width: 53%;
+              border-top: 15px solid #61be4e;
+              position: relative;
+            }
+            .section_4_image {
+              display: flex;
+              justify-content: flex-end;
+              position: absolute;
+              left: 53%;
+            }
+            .section_4_image img {
+              width: 100% !important;
+            }
+            @media screen and (min-width: 1512px) {
+              .section_4_image {
+                margin-top: -100px !important;
+                left: 60%;
+              }
+            }
+            @media screen and (min-width: 1830px) {
+              .section_4_image {
+                margin-top: -100px !important;
+                left: 65%;
+              }
+            }
+            @media screen and (min-width: 2100px) {
+              .section_4_image {
+                margin-top: -100px !important;
+                left: 70%;
+              }
+            }
+            @media screen and (max-width: 768px) {
+              .section_4_card {
+                padding: 1rem;
+              }
+              .section_4_card {
+                position: static;
+                width: 100%;
+                margin-bottom: 10%;
+              }
+              .section_4_image {
+                position: static;
+                left: 0;
+                justify-content: center;
+              }
+              .section_4 {
+                display: flex;
+                flex-direction: column-reverse !important;
+                padding-left: 1rem;
+                padding-right: 1rem;
+              }
+            }
+          `}
+        </style>
       </div>
     )
   }

@@ -25,7 +25,11 @@ class HelpUs extends Component {
               <span>
                 <b>
                   {" "}
-                  Call us now <BsArrowRight className="arrow" />
+                  Call us now{" "}
+                  <BsArrowRight
+                    className="arrow"
+                    style={{ verticalAlign: "middle" }}
+                  />
                 </b>
               </span>
             </a>
@@ -37,7 +41,11 @@ class HelpUs extends Component {
             >
               <span>
                 <b>
-                  Find Resources <BsArrowRight className="arrow" />
+                  Find Resources{" "}
+                  <BsArrowRight
+                    className="arrow"
+                    style={{ verticalAlign: "middle" }}
+                  />
                 </b>
               </span>
             </a>
@@ -63,7 +71,11 @@ class HelpUs extends Component {
             <div style={{ marginTop: "2rem", color: "#61be4e" }}>
               <b>
                 {" "}
-                Sign up now <BsArrowRight className="arrow" />
+                Sign up now{" "}
+                <BsArrowRight
+                  className="arrow"
+                  style={{ verticalAlign: "middle" }}
+                />
               </b>
             </div>
           </a>
@@ -80,10 +92,88 @@ class HelpUs extends Component {
           <div style={{ marginTop: "3.8rem", color: "#61be4e" }}>
             <b>
               {" "}
-              Donate here <BsArrowRight className="arrow" />
+              Donate here{" "}
+              <BsArrowRight
+                className="arrow"
+                style={{ verticalAlign: "middle" }}
+              />
             </b>
           </div>
         </div>
+        <style jsx>
+          {`
+            .section_6 {
+              display: flex;
+              margin-top: 110px;
+            }
+            .section_6 div {
+              width: 100%;
+              text-align: center;
+            }
+            .section_6 h3 {
+              font-family: "Space Grotesk";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 35px;
+              line-height: 163.92%;
+              text-align: center;
+              letter-spacing: 0.03em;
+              color: white;
+              margin-top: 100px;
+            }
+            .section_6 p {
+              font-family: "GT Walsheim Pro Light";
+              padding: 0rem 4rem 0rem 4rem;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 18px;
+              line-height: 163.92%;
+              text-align: center;
+              letter-spacing: 0.03em;
+              color: white;
+              margin-top: 15px;
+            }
+            .section_6 div {
+              font-family: "GT Walsheim Pro Light";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 18px;
+              line-height: 163.92%;
+              text-align: center;
+              letter-spacing: 0.03em;
+              color: #29721a;
+              margin-bottom: 2rem;
+            }
+            @media screen and (max-width: 1000px) {
+              .section_6 div {
+                width: 100% !important;
+                text-align: center;
+                margin-bottom: 0 !important;
+                padding-bottom: 30px !important;
+              }
+              .section_6 h3 {
+                margin-top: 50px !important;
+              }
+              .section_6 {
+                flex-direction: column !important;
+              }
+            }
+            @media screen and (max-width: 768px) {
+              .section_6 {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin: 0 auto;
+                text-align: center;
+                padding-left: 1rem;
+                padding-right: 1rem;
+              }
+              .section_6 div {
+                width: 100%;
+              }
+            }
+          `}
+        </style>
       </div>
     )
   }
