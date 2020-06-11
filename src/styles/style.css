@@ -42,40 +42,6 @@ a {
   color: #61be4e;
 }
 
-footer {
-  height: auto;
-  background: #3c3c3c;
-  padding: 5rem;
-  flex-wrap: wrap;
-}
-.social-media {
-  display: flex;
-}
-.social-media img {
-  padding: 1.2rem;
-}
-.footer-links {
-  font-family: "GT Walsheim Pro Light";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 14px;
-  line-height: 23px;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-  padding: 1rem;
-}
-.copyright {
-  padding: 1rem;
-  color: white;
-  font-family: "GT Walsheim Pro Light";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 12px;
-  line-height: 20px;
-  letter-spacing: 0.03em;
-
-  color: #ffffff;
-}
 .hXQwGq {
   background-color: #bfe8b6 !important;
   border: #bfe8b6 !important;
@@ -107,69 +73,4 @@ footer {
 .rec-slider div:focus {
   outline: none !important;
   border: none !important;
-}
-
-@media screen and (max-width: 1000px) {
-  ul li {
-    padding: 0 1rem 2rem 1rem;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .social-media {
-    display: flex;
-  }
-  .social-media img {
-    width: 40px;
-    height: 40px;
-    padding: 0.2rem !important;
-  }
-
-  .logo {
-    margin-left: 0;
-  }
-
-  .menu {
-    display: flex;
-    justify-content: center;
-  }
-  header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .logo-section {
-    justify-content: center;
-    padding-right: 2rem;
-  }
-  .top-bar {
-    height: auto;
-    padding: 0rem 1rem 1rem 1rem;
-  }
-  ul li {
-    display: flex;
-    padding: 10px 3px 15px 3px;
-    font-size: 14px;
-  }
-
-  .hero,
-  .section_5 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 auto;
-    text-align: center;
-  }
-  .old {
-    left: 0;
-    margin: 0 auto;
-    position: static;
-    padding-top: 20px;
-    width: 100%;
-  }
-
-  .top-bar {
-    width: 100%;
-    justify-content: space-evenly;
-  }
 }

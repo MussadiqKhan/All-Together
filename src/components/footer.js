@@ -44,6 +44,41 @@ const Footer = () => {
             padding: 0.2rem !important;
           }
         }
+
+        footer {
+          height: auto;
+          background: #3c3c3c;
+          padding: 5rem;
+          flex-wrap: wrap;
+        }
+        .social-media {
+          display: flex;
+        }
+        .social-media img {
+          padding: 1.2rem;
+        }
+        .footer-links {
+          font-family: "GT Walsheim Pro Light";
+          font-style: normal;
+          font-weight: 900;
+          font-size: 14px;
+          line-height: 23px;
+          letter-spacing: 0.03em;
+          color: #ffffff;
+          padding: 1rem;
+        }
+        .copyright {
+          padding: 1rem;
+          color: white;
+          font-family: "GT Walsheim Pro Light";
+          font-style: normal;
+          font-weight: 300;
+          font-size: 12px;
+          line-height: 20px;
+          letter-spacing: 0.03em;
+
+          color: #ffffff;
+        }
       `}</style>
     </div>
   )
