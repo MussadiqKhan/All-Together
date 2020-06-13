@@ -37,7 +37,7 @@ const Hero = () => {
             display: flex;
             justify-content: space-between;
             background-color: #000000;
-            background: url('${require("../images/background-img.png")}') !important;
+            background: url('${require("../images/background-main.png")}') !important;
             margin-top: -60px;
             height: 743px;
             background-repeat: no-repeat !important;
