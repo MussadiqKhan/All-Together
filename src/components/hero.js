@@ -38,10 +38,10 @@ const Hero = () => {
             justify-content: space-between;
             background-color: #000000;
             background: url('${require("../images/background-main.png")}') !important;
-            margin-top: -60px;
+            margin-top: -96px;
             height: 743px;
             background-repeat: no-repeat !important;
-            background-size: 100% 100% !important;
+            background-size: 100% 90% !important;
             background-position: center !important;
           }
           .hero-content {
@@ -104,10 +104,11 @@ const Hero = () => {
             color: #444444;
           }
 
-          @media screen and (max-width: 1000px) {
+          @media screen and (max-width: 1150px) {
             .hero {
               background-image: url('${require("../images/background-img.png")}') !important;
               background-position: center !important;
+              margin-top: -59px;
               background-repeat: no-repeat;
               background-size: cover !important;
             }
@@ -116,6 +117,7 @@ const Hero = () => {
             .hero {
               background-image: url('${require("../images/background-img-mobile.png")}') !important;
               background-position: center !important;
+              margin-top: -112px !important;
               background-repeat: no-repeat;
               background-size: cover !important;
             }
